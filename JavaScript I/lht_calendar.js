@@ -41,6 +41,7 @@ document.getElementById("calendar").innerHTML = createCalendar(thisDay);
 
 function createCalendar(calDate) {
    var calendarHTML = "<table id = 'calendar_table'>";
+   calendarHTML += calCaption(calDate);
    calendarHTML += "</table>";
    return calendarHTML;
 }
